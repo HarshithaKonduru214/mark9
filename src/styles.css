@@ -1,4 +1,34 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  max-width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: auto;
+  padding: 1rem;
+}
+
+.comedy {
+  display: none;
+  flex-direction: column;
+}
+
+.action {
+  display: none;
+  flex-direction: column;
+}
+
+.mystery {
+  display: none;
+  flex-direction: column;
+}
+
+.romance {
+  display: none;
+  flex-direction: column;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
 }
