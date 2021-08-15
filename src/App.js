@@ -9,6 +9,10 @@ import money from "./money.jfif";
 import got from "./got.jfif";
 import office from "./offic.jfif";
 import friends from "./friends.jfif";
+import loki from "./loki.jfif";
+import manifest from "./manifest.jfif";
+import cindrella from "./cindrella.jfif";
+import rick from "./rick.jfif";
 
 export default function App() {
   return (
@@ -40,13 +44,20 @@ export default function App() {
             rating="4.5/5"
             src={office}
           />
+          <Show
+            className="Comedy"
+            title="Rick and Morty"
+            platform="Netflix"
+            rating="4/5"
+            src={rick}
+          />
         </div>
         <div className="action">
           <Show
             className="Action"
             title="Outer Bank"
             platform="Netflix"
-            rating="4.5/5"
+            rating="5/5"
             src={outer}
           />
           <Show
@@ -56,13 +67,20 @@ export default function App() {
             rating="4.5/5"
             src={got}
           />
+          <Show
+            className="Action"
+            title="Loki"
+            platform="Netflix"
+            rating="3.5/5"
+            src={loki}
+          />
         </div>
         <div className="romance">
           <Show
             className="Romance"
             title="Vikings"
             platform="Netflix"
-            rating="4/5"
+            rating="5/5"
             src={vikings}
           />
           <Show
@@ -72,13 +90,20 @@ export default function App() {
             rating="4.5/5"
             src={gossip}
           />
+          <Show
+            className="Romance"
+            title="Cindrella"
+            platform="Amazon Prime"
+            rating="3.5/5"
+            src={cindrella}
+          />
         </div>
         <div className="mystery">
           <Show
             className="Mystery"
             title="Stranger Things"
             platform="Netflix"
-            rating="4/5"
+            rating="5/5"
             src={stranger}
           />
           <Show
@@ -86,6 +111,13 @@ export default function App() {
             title="Money Heist"
             platform="Netflix"
             rating="5/5"
+            src={money}
+          />
+          <Show
+            className="Mystery"
+            title="Manifest"
+            platform="Netflix"
+            rating="4/5"
             src={money}
           />
         </div>
