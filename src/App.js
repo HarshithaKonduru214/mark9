@@ -118,7 +118,7 @@ export default function App() {
             title="Manifest"
             platform="Netflix"
             rating="4/5"
-            src={money}
+            src={manifest}
           />
         </div>
       </div>
